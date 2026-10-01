@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sky">#FFE6F2FA</color>
+    <color name="mint">#FFCDEBD9</color>
+    <color name="mint_deep">#FF9FD3B5</color>
+    <color name="water">#FF9DBFD6</color>
+    <color name="sand">#FFF2DFB8</color>
+    <color name="navy">#FF1C2742</color>
+</resources>

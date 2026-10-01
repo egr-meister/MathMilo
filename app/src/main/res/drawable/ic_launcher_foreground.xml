@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Island tile with a plus symbol; artwork kept inside the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- island tile -->
+    <path android:fillColor="#CDEBD9"
+        android:pathData="M34,30 h40 a8,8 0 0 1 8,8 v32 a8,8 0 0 1 -8,8 h-40 a8,8 0 0 1 -8,-8 v-32 a8,8 0 0 1 8,-8 z" />
+    <!-- sand shore -->
+    <path android:fillColor="#F2DFB8"
+        android:pathData="M26,64 h56 v6 a8,8 0 0 1 -8,8 h-40 a8,8 0 0 1 -8,-8 z" />
+    <!-- plus symbol -->
+    <path android:fillColor="#1C2742"
+        android:pathData="M50,36 h8 v12 h12 v8 h-12 v12 h-8 v-12 h-12 v-8 h12 z" />
+</vector>
