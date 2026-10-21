@@ -136,7 +136,7 @@ Outputs:
 ### Permission verification
 
 CI runs `aapt2 dump permissions` on the packaged release APK and fails on anything except the
-signature-level `com.mathmilo.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION` that androidx.core adds
+signature-level `com.mathmilo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION` that androidx.core adds
 (it is not a runtime permission and grants nothing to other apps). The merged release manifest's
 `uses-permission` lines are appended to `verification-report.txt`.
 
@@ -207,8 +207,8 @@ a 16 KB emulator image before claiming runtime compatibility.
 
 ```bash
 adb install -r app/build/outputs/apk/release/app-release.apk
-adb logcat -c && adb shell monkey -p com.mathmilo.app 1 && adb logcat --pid=$(adb shell pidof com.mathmilo.app)
-adb shell am kill com.mathmilo.app            # process-death check (app in background)
+adb logcat -c && adb shell monkey -p com.mathmilo 1 && adb logcat --pid=$(adb shell pidof com.mathmilo)
+adb shell am kill com.mathmilo            # process-death check (app in background)
 adb shell cmd connectivity airplane-mode enable
 ```
 

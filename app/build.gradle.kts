@@ -35,7 +35,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.mathmilo.app"
+        applicationId = "com.mathmilo"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
